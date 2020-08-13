@@ -35,7 +35,7 @@ public class list {
 		driver.findElement(By.xpath("//a[@class='dropdown-toggle'][contains(text(),'List Box')]")).click();
 	}
 
-	// wrong count value is being displayed
+	
 	@Then("^I verify three drop down values are getting displayed$")
 	public void i_verify_three_drop_down_values_are_getting_displayed() throws Throwable {
 		List<WebElement> elements = driver.findElements(
